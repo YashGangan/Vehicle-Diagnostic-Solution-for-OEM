@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Spinner1() {
+export default function Spinner() {
   return (
     <section className="bg-white py-20 dark:bg-dark">
       <div className="container">
