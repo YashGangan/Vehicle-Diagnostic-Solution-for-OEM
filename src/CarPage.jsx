@@ -5,6 +5,7 @@ import Metrics from './components/Metrics'
 import Repairs from './components/Repairs'
 import RepairHistory from './components/RepairHistory'
 import GenerateReport from './components/GenerateReport'
+import RadarChart from './components/general/RadarChart'
 
 const CarPage = () => {
   return (
@@ -14,6 +15,7 @@ const CarPage = () => {
       <Metrics />
       <Repairs isDiagnostics={false}/>
       <RepairHistory />
+      <RadarChart />
       <GenerateReport />
     </Layout>  
     </>
