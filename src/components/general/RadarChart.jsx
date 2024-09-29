@@ -7,7 +7,7 @@ export default function ChartRadar() {
       <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
         Overall Performance
       </h1>
-      <p className="text-md font-extralight tracking-tight text-center mb-10">A brief about the .</p>
+      <p className="text-md font-extralight tracking-tight text-center mb-10">A percentage overview of the performance of systems</p>
       <TEChart
       type="radar"
       data={{
@@ -23,8 +23,8 @@ export default function ChartRadar() {
         ],
         datasets: [
           {
-            label: "Overall",
-            data: [2112, 2343, 1700, 2910, 2365, 2190, 2763, 2103],
+            label: "Performance %",
+            data: [78, 67, 92, 88, 91, 97, 91, 87],
           },
         ],
       }}

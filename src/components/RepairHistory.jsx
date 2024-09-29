@@ -1,16 +1,16 @@
 import React from 'react'
 
 const repairs = [
-    { date: '24th Sept 2024', issueCode: 'P1092', issueDesc: 'Problem Description', solution: 'Problem Solution', doneBy: 'Kale Mechanic'},
-    { date: '24th Sept 2024', issueCode: 'P1092', issueDesc: 'Problem Description', solution: 'Problem Solution', doneBy: 'Kale Mechanic'},
-    { date: '24th Sept 2024', issueCode: 'P1092', issueDesc: 'Problem Description', solution: 'Problem Solution', doneBy: 'Kale Mechanic'}
+    { date: '24th Sept 2024', issueCode: 'P0735', issueDesc: 'Gear 5 Incorrect Ratio', solution: 'Check for internal transmission issues like damaged gears. Inspect shift solenoids and replace if necessary. Perform a transmission fluid flush and refill.', doneBy: 'Mechanic1'},
+    { date: '18th Aug 2024', issueCode: 'P0740', issueDesc: 'Torque Converter Clutch Circuit Malfunction', solution: 'Check the torque converter for damage or wear. Inspect and repair the transmission valve body. Replace the torque converter solenoid if found to be faulty', doneBy: 'Mechanic2'},
+    { date: '9th July 2024', issueCode: 'P0171', issueDesc: 'System Too Lean (Bank 1)', solution: 'Inspect for any vacuum leaks in the intake manifold. Clean or replace the mass airflow sensor (MAF) after inspection. Check the fuel pressure and fuel filter.', doneBy: 'Mechanic3'}
 ]
 const RepairHistory = () => {
   return (
     <>
-        <section>
-            <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Repairs History</h2>
-            <p className="text-md font-extralight tracking-tight text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, magnam.</p>
+        <section className='my-10'>
+            <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl mt-10">Repairs History</h2>
+            <p className="text-md font-extralight tracking-tight text-center">Outlines a record of repairs done on the vehicle in the past along with the issues encountered</p>
             <div className="grid grid-cols-3 gap-x-10 mt-10 mx-10">
             {
                 repairs.map((rep, idx) => (

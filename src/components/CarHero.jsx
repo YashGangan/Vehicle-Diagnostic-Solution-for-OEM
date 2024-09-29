@@ -1,10 +1,10 @@
 const features = [
-  { name: 'Vehicle ID', description: 'Made from natural materials. Grain and color vary with each item.' },
-  { name: 'Model & Year', description: 'Designed by Good Goods, Inc.' },
-  { name: 'Transmission', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
-  { name: 'Engine', description: '6.25" x 3.55" x 1.15"' },
-  { name: 'Fuel Type', description: 'Hand sanded and finished with natural oil' },
-  { name: 'Drive Train', description: 'Wood card tray and 3 refill packs' },
+  { name: 'Vehicle ID', description: 'v1' },
+  { name: 'Model & Year', description: 'Hyundai Alcazar Prestige 1.5 Diesel MT 7STR - 2024' },
+  { name: 'Transmission', description: 'Manual - 6 Gears' },
+  { name: 'Engine', description: '1493 CC, 4 Cylinders Inline, 4 Valves/Cylinder, DOHC' },
+  { name: 'Fuel Type', description: 'Diesel (50L)' },
+  { name: 'Drive Train', description: 'FWD' },
 ]
 
 export default function Example() {
@@ -28,8 +28,8 @@ export default function Example() {
         </div>
         <div className="grid gap-4 sm:gap-6 lg:gap-8">
           <img
-            alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+            alt="Car Image"
+            src="/assets/v1.jpeg"
             className="rounded-lg bg-gray-100"
           />
         </div>

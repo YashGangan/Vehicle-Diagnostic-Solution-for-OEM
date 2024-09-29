@@ -1,39 +1,35 @@
 const products = [
     {
       id: 1,
-      name: 'Basic Tee',
+      name: 'Hyundai Alcazar Prestige',
       href: '/car',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-      imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
-    },
-    {
+      imageSrc: '/assets/v1.jpeg',
+      imageAlt: "carImage",
+      price: 'v1',    
+      },
+      {
         id: 2,
-        name: 'Basic Tee',
+        name: 'XUV700 MX',
         href: '/car',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageSrc: '/assets/v2.jpeg',
+        imageAlt: "carImage",
+        price: 'v2',
       },
       {
         id: 3,
-        name: 'Basic Tee',
+        name: 'Thar Roxx AX7',
         href: '/car',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageSrc: '/assets/v3.jpeg',
+        imageAlt: "carImage",
+        price: 'v3',
       },
       {
         id: 4,
-        name: 'Basic Tee',
+        name: 'Kia Seltos HTK Plus',
         href: '/car',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageSrc: '/assets/v4.jpeg',
+        imageAlt: "carImage",
+        price: 'v4',
       },
     // More products...
   ]
@@ -41,10 +37,10 @@ const products = [
   export default function Example() {
     return (
       <div className="bg-white">
-        <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10 lg:px-8">
+        <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10 lg:px-8">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Vehicles Assigned to You</h2>
   
-          <div className="mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+          <div className="mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-4">
             {products.map((product) => (
               <div key={product.id} className="group relative">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
