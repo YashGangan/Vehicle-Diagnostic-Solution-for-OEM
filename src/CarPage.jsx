@@ -1,8 +1,10 @@
 import React from 'react'
 import CarHero from './components/CarHero'
 import Layout from './components/Layout'
-import Metrics from './components/general/Metrics'
-import Repairs from './components/general/Repairs'
+import Metrics from './components/Metrics'
+import Repairs from './components/Repairs'
+import RepairHistory from './components/RepairHistory'
+import GenerateReport from './components/GenerateReport'
 
 const CarPage = () => {
   return (
@@ -10,7 +12,9 @@ const CarPage = () => {
     <Layout>
       <CarHero />
       <Metrics />
-      <Repairs />
+      <Repairs isDiagnostics={false}/>
+      <RepairHistory />
+      <GenerateReport />
     </Layout>  
     </>
   )

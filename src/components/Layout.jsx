@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import '../css/index.css';
 import Navbar from "./general/Navbar";
 import Sidebar from "./general/Sidebar";
+import Footer from "./general/Footer";
 
 // Pass the child props
 export default function Layout({ children }) {
@@ -15,6 +16,7 @@ export default function Layout({ children }) {
             <div className="mx-auto px-4 py-6">
                 {children}       
             </div>
+          <Footer />
         </main>
       </div>
       <Outlet />
